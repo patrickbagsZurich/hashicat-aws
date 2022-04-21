@@ -3,10 +3,8 @@ module "s3_bucket" {
 
   bucket = "my-s3-bucket"
   acl    = "private"
-  bucket_prefix = "patrick-bagnuolo"
 
   versioning = {
     enabled = true
   }
-
 }
